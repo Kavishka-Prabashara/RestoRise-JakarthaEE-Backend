@@ -1,4 +1,6 @@
 package lk.kavishka.restorisejakarthaeebackend.bo.custom;
 
-public interface OrderBO {
+import lk.kavishka.restorisejakarthaeebackend.bo.SuperBO;
+
+public interface OrderBO extends SuperBO {
 }

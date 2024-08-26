@@ -1,4 +1,6 @@
 package lk.kavishka.restorisejakarthaeebackend.bo.custom;
 
-public interface StaffBO {
+import lk.kavishka.restorisejakarthaeebackend.bo.SuperBO;
+
+public interface StaffBO extends SuperBO {
 }
