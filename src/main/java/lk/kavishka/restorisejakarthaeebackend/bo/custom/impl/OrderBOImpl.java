@@ -1,4 +1,6 @@
 package lk.kavishka.restorisejakarthaeebackend.bo.custom.impl;
 
-public class OrderBOImpl {
+import lk.kavishka.restorisejakarthaeebackend.bo.custom.OrderDetailBO;
+
+public class OrderBOImpl implements OrderDetailBO{
 }

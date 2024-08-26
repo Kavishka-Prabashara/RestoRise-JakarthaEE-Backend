@@ -1,4 +1,6 @@
 package lk.kavishka.restorisejakarthaeebackend.bo.custom.impl;
 
-public class StaffBOImpl {
+import lk.kavishka.restorisejakarthaeebackend.bo.custom.StaffBO;
+
+public class StaffBOImpl implements StaffBO{
 }

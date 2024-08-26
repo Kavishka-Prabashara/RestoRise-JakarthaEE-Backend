@@ -1,4 +1,6 @@
 package lk.kavishka.restorisejakarthaeebackend.bo.custom.impl;
 
-public class CustomerBOImpl {
+import lk.kavishka.restorisejakarthaeebackend.bo.custom.CustomerBO;
+
+public class CustomerBOImpl implements CustomerBO {
 }
