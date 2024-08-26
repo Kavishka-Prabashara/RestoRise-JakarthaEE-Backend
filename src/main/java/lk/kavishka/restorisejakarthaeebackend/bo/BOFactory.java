@@ -7,5 +7,7 @@ import lk.kavishka.restorisejakarthaeebackend.bo.custom.impl.OrderDetailBOImpl;
 import lk.kavishka.restorisejakarthaeebackend.bo.custom.impl.StaffBOImpl;
 
 public class BOFactory {
+    private static BOFactory boFactory;
+
 
 }
