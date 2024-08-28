@@ -3,6 +3,7 @@ package lk.kavishka.restorisejakarthaeebackend.controller;
 import jakarta.json.bind.Jsonb;
 import jakarta.json.bind.JsonbBuilder;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -17,6 +18,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
+@WebServlet(urlPatterns = "/item")
 public class ItemController extends HttpServlet {
     private Connection connection;
     ItemBO itemBO = (ItemBO) BOFactory.getBOFactory().BOTypes(BOFactory.BOTypes.ITEMS);

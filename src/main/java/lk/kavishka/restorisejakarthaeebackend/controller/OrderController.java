@@ -3,6 +3,7 @@ package lk.kavishka.restorisejakarthaeebackend.controller;
 import jakarta.json.bind.Jsonb;
 import jakarta.json.bind.JsonbBuilder;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -16,6 +17,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.util.List;
 
+@WebServlet(urlPatterns = "/order")
 public class OrderController extends HttpServlet {
     private Connection connection;
     OrderBO orderBO = (OrderBO) BOFactory.getBOFactory().BOTypes(BOFactory.BOTypes.ORDERS);
