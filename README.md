@@ -2,6 +2,12 @@
 
 ## Introduction
 Welcome to the RestoRise JakartaEE Backend project. This project represents the backend implementation of a Point of Sale (POS) system designed for a restaurant and bar management scenario. The frontend of this system has already been developed, and this backend is built to serve as the API that powers the application's core functionalities.
+### Frontend Project
+
+The frontend of this POS system has already been developed and is available at the following repository:
+
+[RestoRise-Restaurant-and-Bar-Management-System-Web-POS](https://github.com/Kavishka-Prabashara/RestoRise-Restaurant-and-Bar-Management-System-Web-POS.git)
+
 
 ## Project Structure
 
