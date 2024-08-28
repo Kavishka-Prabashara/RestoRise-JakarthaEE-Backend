@@ -1,4 +1,7 @@
 package lk.kavishka.restorisejakarthaeebackend.dao.custom;
 
-public interface OrderDetailDAO {
+import lk.kavishka.restorisejakarthaeebackend.dao.CrudDAO;
+import lk.kavishka.restorisejakarthaeebackend.entity.OrderDetails;
+
+public interface OrderDetailDAO extends CrudDAO<OrderDetails> {
 }

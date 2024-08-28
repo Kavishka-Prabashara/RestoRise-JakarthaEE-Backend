@@ -1,4 +1,7 @@
 package lk.kavishka.restorisejakarthaeebackend.dao.custom;
 
-public interface ItemDAO {
+import lk.kavishka.restorisejakarthaeebackend.dao.CrudDAO;
+import lk.kavishka.restorisejakarthaeebackend.entity.Item;
+
+public interface ItemDAO extends CrudDAO<Item> {
 }
